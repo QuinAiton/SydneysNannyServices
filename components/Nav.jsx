@@ -1,9 +1,10 @@
 import React from 'react';
 import Image from 'next/image';
 import logo2 from '../public/logo2.png';
+import Link from 'next/link'
 const Nav = () => {
   return (
-    <nav className='  bg-[#fffbf5] px-2 py-2.5 sm:px-4'>
+    <nav className='  bg-[#fef8e4] px-2 py-2.5 sm:px-4 fixed z-10 w-screen'>
       <div className='container mx-auto flex flex-wrap items-center justify-between'>
         <div>
           <div className='flex justify-center'>
@@ -12,12 +13,12 @@ const Nav = () => {
               SNS
             </span>
           </div>
-            <span className='text-sm'> Sydney's Nanny Service</span>
+          <span className='text-sm'> Sydney's Nanny Service</span>
         </div>
         <div className='flex md:order-2'>
           <button
             type='button'
-            className='focus:ring-blue-300md:mr-0 mr-3 rounded-lg bg-black px-8 py-2.5 text-center text-sm font-medium text-white hover:bg-blue-800 focus:ring-4'
+            className='focus:ring-blue-300md:mr-0 mr-3 rounded-lg bg-black px-8 py-2.5 text-center text-sm font-medium text-white hover:bg-gray-700 focus:ring-4'
           >
             Book Now!
           </button>
@@ -61,28 +62,35 @@ const Nav = () => {
         >
           <ul className='mt-4 flex flex-col md:mt-0 md:flex-row md:space-x-8 md:text-sm md:font-medium'>
             <li>
-              <a
-                href='#landing'
-                className=' text-lg text-gray-500 hover:text-black'
-                aria-current='page'
-              >
-                Home
-              </a>
+              <Link href='#home'>
+                <a
+                  className=' text-lg text-gray-500 hover:text-gray-700'
+                  aria-current='page'
+                >
+                  Home
+                </a>
+              </Link>
             </li>
             <li>
-              <a href='#about' className=' text-lg text-gray-500 hover:text-black'>
-                About Us
-              </a>
+              <Link href='#about'>
+                <a className=' text-lg text-gray-500 hover:text-gray-700'>
+                  About Us
+                </a>
+              </Link>
             </li>
             <li>
-              <a href='#services' className=' text-lg text-gray-500 hover:text-black'>
-                Services
-              </a>
+              <Link href='#services'>
+                <a className=' text-lg text-gray-500 hover:text-gray-700'>
+                  Services
+                </a>
+              </Link>
             </li>
             <li>
-              <a href='#contact' className=' text-lg text-gray-500 hover:text-black'>
-                Contact
-              </a>
+              <Link href='#contact'>
+                <a className=' text-lg text-gray-500 hover:text-gray-700'>
+                  Contact
+                </a>
+              </Link>
             </li>
           </ul>
         </div>
