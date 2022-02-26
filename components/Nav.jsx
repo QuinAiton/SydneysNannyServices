@@ -4,7 +4,7 @@ import logo2 from '../public/logo2.png';
 import Link from 'next/link'
 const Nav = () => {
   return (
-    <nav className='  bg-[#fef8e4] px-2 py-2.5 sm:px-4 fixed z-10 w-screen'>
+    <nav className='  bg-[#fef8e4] px-2 py-2.5 sm:px-4 fixed z-20 w-screen'>
       <div className='container mx-auto flex flex-wrap items-center justify-between'>
         <div>
           <div className='flex justify-center'>
@@ -18,7 +18,7 @@ const Nav = () => {
         <div className='flex md:order-2'>
           <button
             type='button'
-            className='focus:ring-blue-300md:mr-0 mr-3 rounded-lg bg-black px-8 py-2.5 text-center text-sm font-medium text-white hover:bg-gray-700 focus:ring-4'
+            className='focus:ring-blue-300md:mr-0 mr-3 rounded-lg bg-black px-8 py-2.5 text-center text-sm font-medium text-white hover:bg-pink-400 focus:ring-4'
           >
             Book Now!
           </button>
