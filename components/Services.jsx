@@ -2,7 +2,7 @@ import React from 'react';
 
 const Services = () => {
   return (
-    <div>
+    <div id="services">
       <section>
         <div className='container mx-auto max-w-full py-24 px-6'>
           <h1 className='text-center text-4xl font-medium leading-snug tracking-wider text-pink-400'>
@@ -38,8 +38,8 @@ const Services = () => {
                             viewBox='0 0 24 24'
                             fill='none'
                             stroke='currentColor'
-                            stroke-width='2'
-                            stroke-linecap='round'
+                            strokeWidth='2'
+                            strokeLinecap='round'
                             strokeLinejoin='round'
                           >
                             <path d='M22 11.08V12a10 10 0 1 1-5.93-9.14'></path>
@@ -59,8 +59,8 @@ const Services = () => {
                             viewBox='0 0 24 24'
                             fill='none'
                             stroke='currentColor'
-                            stroke-width='2'
-                            stroke-linecap='round'
+                            strokeWidth='2'
+                            strokeLinecap='round'
                             strokeLinejoin='round'
                           >
                             <path d='M22 11.08V12a10 10 0 1 1-5.93-9.14'></path>
@@ -80,8 +80,8 @@ const Services = () => {
                             viewBox='0 0 24 24'
                             fill='none'
                             stroke='currentColor'
-                            stroke-width='2'
-                            stroke-linecap='round'
+                            strokeWidth='2'
+                            strokeLinecap='round'
                             strokeLinejoin='round'
                           >
                             <path d='M22 11.08V12a10 10 0 1 1-5.93-9.14'></path>
@@ -136,8 +136,8 @@ const Services = () => {
                           viewBox='0 0 24 24'
                           fill='none'
                           stroke='currentColor'
-                          stroke-width='2'
-                          stroke-linecap='round'
+                          strokeWidth='2'
+                          strokeLinecap='round'
                           strokeLinejoin='round'
                         >
                           <path d='M22 11.08V12a10 10 0 1 1-5.93-9.14'></path>
@@ -157,8 +157,8 @@ const Services = () => {
                           viewBox='0 0 24 24'
                           fill='none'
                           stroke='currentColor'
-                          stroke-width='2'
-                          stroke-linecap='round'
+                          strokeWidth='2'
+                          strokeLinecap='round'
                           strokeLinejoin='round'
                         >
                           <path d='M22 11.08V12a10 10 0 1 1-5.93-9.14'></path>
@@ -178,8 +178,8 @@ const Services = () => {
                           viewBox='0 0 24 24'
                           fill='none'
                           stroke='currentColor'
-                          stroke-width='2'
-                          stroke-linecap='round'
+                          strokeWidth='2'
+                          strokeLinecap='round'
                           strokeLinejoin='round'
                         >
                           <path d='M22 11.08V12a10 10 0 1 1-5.93-9.14'></path>
@@ -231,8 +231,8 @@ const Services = () => {
                             viewBox='0 0 24 24'
                             fill='none'
                             stroke='currentColor'
-                            stroke-width='2'
-                            stroke-linecap='round'
+                            strokeWidth='2'
+                            strokeLinecap='round'
                             strokeLinejoin='round'
                           >
                             <path d='M22 11.08V12a10 10 0 1 1-5.93-9.14'></path>
@@ -252,8 +252,8 @@ const Services = () => {
                             viewBox='0 0 24 24'
                             fill='none'
                             stroke='currentColor'
-                            stroke-width='2'
-                            stroke-linecap='round'
+                            strokeWidth='2'
+                            strokeLinecap='round'
                             strokeLinejoin='round'
                           >
                             <path d='M22 11.08V12a10 10 0 1 1-5.93-9.14'></path>
@@ -273,8 +273,8 @@ const Services = () => {
                             viewBox='0 0 24 24'
                             fill='none'
                             stroke='currentColor'
-                            stroke-width='2'
-                            stroke-linecap='round'
+                            strokeWidth='2'
+                            strokeLinecap='round'
                             strokeLinejoin='round'
                           >
                             <path d='M22 11.08V12a10 10 0 1 1-5.93-9.14'></path>
