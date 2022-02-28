@@ -18,7 +18,15 @@ const Nav = () => {
         <div className='flex md:order-2'>
           <button
             type='button'
-            className='focus:ring-blue-300md:mr-0 mr-3 rounded-lg bg-black px-8 py-2.5 text-center text-sm font-medium text-white hover:bg-pink-400 focus:ring-4'
+            className='mt-3 block w-full 
+	rounded-lg bg-cyan-700 px-6 py-2 
+	text-lg font-semibold text-white shadow-xl ring-cyan-700        ring-offset-2
+                      transition
+                      duration-300
+                      ease-in-out
+                      hover:bg-pink-400
+                      focus:outline-none
+                      focus:ring-2'
           >
             Book Now!
           </button>
