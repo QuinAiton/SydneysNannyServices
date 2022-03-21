@@ -1,19 +1,19 @@
-import Head from 'next/head';
-import Image from 'next/image';
-import Nav from '../components/Nav.jsx';
-import JumboTron from '../components/JumboTron.jsx';
-import Services from '../components/Services.jsx'
-import About from '../components/About.jsx'
-import Contact from '../components/Contact'
+import Head from "next/head";
+import Image from "next/image";
+import Nav from "../components/Nav.jsx";
+import JumboTron from "../components/JumboTron.jsx";
+import Services from "../components/Services.jsx";
+import About from "../components/About.jsx";
+import Contact from "../components/Contact";
 const index = () => {
   return (
-    <div>
+    <html className="scroll-smooth overflow-x-hidden font-Montserrat ">
       <Nav />
-      <JumboTron  /> 
+      <JumboTron />
       <Services />
-      <About /> 
+      <About />
       <Contact />
-    </div>
+    </html>
   );
 };
 

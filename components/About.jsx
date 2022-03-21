@@ -1,30 +1,30 @@
-import React from 'react';
-import profilePic from '../public/profilePic.png';
-import Image from 'next/image';
+import React from "react";
+import profilePic from "../public/profilePic.png";
+import Image from "next/image";
 const About = () => {
   return (
     <div
-      className='flex w-screen  flex-wrap   items-center justify-center bg-[#fef8e4] '
-      id='about'
+      className="flex w-screen h-screen flex-wrap items-center justify-center bg-[#fef8e4] rounded-xl "
+      id="about"
     >
-      <div className='easy-in-out container my-20 transform    rounded-lg  bg-white    shadow-2xl   duration-200 sm:w-[90vw] md:w-[90vw] lg:w-[50vw] xl:w-[50vw]'>
-        <h1 className='mb-10 text-center text-4xl font-medium leading-snug tracking-wider text-pink-400'>
+      <div className="container my-20 transform rounded-lg  bg-white shadow-2xl duration-200 sm:w-[90vw] md:w-[90vw] lg:w-[50vw] xl:w-[50vw]">
+        <h1 className="mb-10 text-center text-4xl font-medium leading-snug tracking-wider text-pink-400 pt-10">
           Who Am I?
-        <div className='mx-auto h-1 w-24 rounded bg-pink-400 opacity-75' />
+          <div className="mx-auto h-1 w-24 rounded bg-pink-400 opacity-75" />
         </h1>
-        <div className=' flex  h-[450px] justify-center'>
+        <div className=" flex  h-[450px] justify-center">
           <Image
-            className='w-full rounded-[50%] '
+            className="w-full rounded-[50%] "
             src={profilePic}
             height={450}
             width={450}
-            alt='Profile Picture of Sydney'
+            alt="Profile Picture of Sydney"
           />
         </div>
-        <div className='my-10 h-auto px-14 text-center'>
-          <h2 className='text-3xl font-bold text-pink-400'>Sydney Hll</h2>
-          <p className='mt-2 text-gray-400'>@linkedin profile here</p>
-          <p className='mt-2 text-gray-600'>
+        <div className="my-10 h-auto px-14 text-center">
+          <h2 className="text-3xl font-bold text-pink-400">Sydney Hll</h2>
+          <p className="mt-2 text-gray-400">@linkedin profile here</p>
+          <p className="mt-2 text-xl text-gray-600">
             My name is Sydney Hill and I am currently living in Pemberton, BC.
             In the spring of 2021, I graduated from Simon Fraser University with
             a bachelor of general studies in Education, with the end goal of
