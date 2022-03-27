@@ -4,7 +4,7 @@ const Services = () => {
   return (
     <section
       id="services"
-      className="container mx-auto max-w-full h-screen py-24 px-6 flex flex-col items-center justify-center"
+      className="mx-auto max-w-full min-h-screen m-10 md:py-24 px-6 flex flex-col items-center justify-center bg-[#fef8e4]"
     >
       <h1 className="text-center text-4xl font-medium leading-snug tracking-wider text-pink-400">
         Services
@@ -74,10 +74,13 @@ const Services = () => {
                   </li>
                 </ul>
               </div>
-              <div className=" flex items-center p-8  uppercase">
-                <a href="#Contact"></a>
-                <button
-                  className="mt-3 block w-full 
+              <div>
+                <a
+                  href="#contact"
+                  className=" flex items-center p-8  uppercase"
+                >
+                  <button
+                    className="mt-3 block w-full 
 	rounded-lg bg-cyan-700 px-6 py-3 
 	text-lg font-semibold text-white shadow-xl ring-cyan-700        ring-offset-2
                       transition
@@ -86,14 +89,15 @@ const Services = () => {
                       hover:bg-pink-400
                       focus:outline-none
                       focus:ring-2"
-                >
-                  Inquire
-                </button>
+                  >
+                    Inquire
+                  </button>
+                </a>
               </div>
             </div>
           </div>
           <div className="relative z-10 my-8 w-full max-w-md rounded-lg bg-white shadow-2xl sm:my-5 sm:w-2/3 lg:w-1/3">
-            <div className="rounded-t-lg bg-[#fef8e4] py-4 text-center text-sm font-semibold uppercase leading-none tracking-wide text-black">
+            <div className="rounded-t-lg bg-cyan-700 py-4 text-center text-sm font-semibold uppercase leading-none tracking-wide text-white">
               Most Popular
             </div>
             <h1 className="p-3 pb-0 text-center text-lg font-medium uppercase tracking-wide">
@@ -149,9 +153,10 @@ const Services = () => {
                 </li>
               </ul>
             </div>
-            <div className=" flex items-center p-8  uppercase">
-              <button
-                className="mt-3 block w-full 
+            <div>
+              <a href="#contact" className=" flex items-center p-8  uppercase">
+                <button
+                  className="mt-3 block w-full 
 	rounded-lg bg-cyan-700 px-6 py-3 
 	text-lg font-semibold text-white shadow-xl ring-cyan-700        ring-offset-2
                       transition
@@ -160,9 +165,10 @@ const Services = () => {
                       hover:bg-pink-400
                       focus:outline-none
                       focus:ring-2"
-              >
-                Inquire
-              </button>
+                >
+                  Inquire
+                </button>
+              </a>
             </div>
           </div>
           <div className="relative z-0 my-8 w-11/12 max-w-sm rounded-lg shadow-lg sm:my-5 sm:w-3/5 md:-ml-4 lg:w-1/3">
@@ -219,9 +225,10 @@ const Services = () => {
                 </ul>
               </div>
 
-              <div className=" flex items-center p-8  uppercase">
-                <button
-                  className="mt-3 block w-full 
+              <div>
+                <a href="#contact" className="flex items-center p-8  uppercase">
+                  <button
+                    className="mt-3 block w-full 
 	rounded-lg bg-cyan-700 px-6 py-3 
 	text-lg font-semibold text-white shadow-xl ring-cyan-700        ring-offset-2
                       transition
@@ -230,9 +237,10 @@ const Services = () => {
                       hover:bg-pink-400
                       focus:outline-none
                       focus:ring-2"
-                >
-                  Inquire
-                </button>
+                  >
+                    Inquire
+                  </button>
+                </a>
               </div>
             </div>
           </div>

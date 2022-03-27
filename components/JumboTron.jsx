@@ -1,22 +1,16 @@
 import React from "react";
 import Image from "next/image";
-import childpaintimage from "../public/childPainting.svg";
 const JumboTron = () => {
   return (
-    <div className="h-screen w-screen bg-[#fef8e4]" id="home">
-      <div className="relative h-[70vh] w-screen ">
-        <Image
-          layout="fill"
-          objectFit="cover"
-          objectPosition="center"
-          quality={100}
-          src={childpaintimage}
-          alt={"child painting"}
-        />
-        <h2 className=" relative pt-[45vh] text-center text-2xl font-bold leading-9 tracking-tight text-black sm:text-2xl sm:leading-10">
+    <div
+      className=" w-screen min-h-screen grid grid-rows-3 bg-secondary"
+      id="home"
+    >
+      <div className="w-screen md:row-span-2 bg-[url('/childPainting.svg')] bg-no-repeat bg-contain md:bg-cover bg-top">
+        <h2 className="pt-[30vh] md:pt-[50vh] text-center text-2xl font-bold leading-9 tracking-tight text-black sm:text-2xl sm:leading-10">
           Childcare you can trust
         </h2>
-        <div className="justify-cente relative flex justify-center pt-5">
+        <div className="flex justify-center pt-10">
           <div className="inline-flex rounded-md bg-white shadow">
             <a
               href="#services"
@@ -33,8 +27,8 @@ const JumboTron = () => {
           </div>
         </div>
       </div>
-      <div className="mx-auto mt-20 h-auto w-[70vw] rounded-xl bg-white p-10 shadow-xl ">
-        <h2 className="text-left text-xl m-10">
+      <div className="w-full h-auto row-span-2 mx-auto md:mt-0 mt-20 rounded-xl md:p-5">
+        <h2 className="text-left text-md m-10">
           We are a childcare business located in Pemberton BC. We provide
           children with the trusting care they need, while ensuring safety and
           fun. Getting the children outdoors is a high priority for us as we

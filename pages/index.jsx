@@ -7,13 +7,13 @@ import About from "../components/About.jsx";
 import Contact from "../components/Contact";
 const index = () => {
   return (
-    <html className="scroll-smooth overflow-x-hidden font-Montserrat ">
+    <div className="font-Montserrat ">
       <Nav />
       <JumboTron />
       <Services />
       <About />
       <Contact />
-    </html>
+    </div>
   );
 };
 

@@ -4,10 +4,11 @@ module.exports = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx}",
     "./components/**/*.{js,ts,jsx,tsx}",
+    "./src/globals/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
     extend: {
-      primary: "#fef8e4",
+      primary: "[#fef8e4]",
       secondary: "white",
       tertiary: "pink-400",
       buttonPrimary: "black",
