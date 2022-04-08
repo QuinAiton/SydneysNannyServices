@@ -4,7 +4,7 @@ const Services = () => {
   return (
     <section
       id="services"
-      className="mx-auto max-w-full min-h-screen m-10 md:py-24 px-6 flex flex-col items-center justify-center bg-[#fef8e4]"
+      className="mx-auto max-w-full min-h-[120vh] px-6 flex flex-col items-center justify-center bg-[#fef8e4]"
     >
       <h1 className="text-center text-4xl font-medium leading-snug tracking-wider text-pink-400">
         Services

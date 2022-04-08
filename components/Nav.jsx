@@ -6,8 +6,8 @@ const Nav = () => {
   const [isHidden, setIsHidden] = useState(true);
 
   return (
-    <nav class="bg-gray-100">
-      <div class="max-w-6xl mx-auto px-4">
+    <nav class="bg-white fixed w-screen z-20">
+      <div class="max-w-8xl mx-auto px-4">
         <div class="flex justify-between">
           <div class="flex space-x-4">
             {/* <!-- logo --> */}
