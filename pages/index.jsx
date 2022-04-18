@@ -5,6 +5,7 @@ import JumboTron from "../components/JumboTron.jsx";
 import Services from "../components/Services.jsx";
 import About from "../components/About.jsx";
 import Contact from "../components/Contact";
+import Footer from "../components/Footer";
 const index = () => {
   return (
     <div className="font-Montserrat ">
@@ -13,6 +14,7 @@ const index = () => {
       <Services />
       <About />
       <Contact />
+      <Footer />
     </div>
   );
 };

@@ -3,10 +3,10 @@ import React from "react";
 const Contact = () => {
   return (
     <div
-      className="flex flex-col min-h-screen w-full items-center justify-center bg-white md:bg-[#fef8e4]"
+      className="flex flex-col min-h-screen w-full items-center justify-center bg-gradient-to-t from-[#f0f0ee] to-[#fef8e4]   md:bg-[#fef8e4]"
       id="contact"
     >
-      <div className="relative flex md:w-[70vw] flex-col justify-around space-y-5 overflow-hidden rounded-xl bg-[#fef8e4] md:bg-white p-10 text-white shadow-lg sm:w-[90vw] md:flex-row md:space-x-1 md:space-y-0">
+      <div className="relative flex md:w-[70vw] flex-col justify-around space-y-5 overflow-hidden rounded-xl bg-[#fef8e4] md:bg-white p-10 text-white sm:w-[90vw] md:flex-row md:space-x-1 md:space-y-0">
         <div className="absolute -left-12 bottom-14 z-0 h-28 w-28 rounded-full bg-white"></div>
         <div className="relative z-10 flex flex-col justify-center space-y-8">
           <div>
@@ -90,9 +90,6 @@ const Contact = () => {
           </div>
         </div>
       </div>
-      <h2 className=" mt-[5vh] md:mt-[10vh] text-lg md:text-2xl">
-        I look forward to hearing from you!
-      </h2>
     </div>
   );
 };
